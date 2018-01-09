@@ -1,0 +1,17 @@
+name: Blog
+description: CMS standard drupal 8 blog Theme
+type: theme
+core: 8.x
+package: custom
+core: 8.x
+
+libraries:
+  - blog/global-css
+
+
+
+stylesheets-remove:
+  - core/themes/stable/css/system/components/tabledrag.module.css?p29m2r
+  - core/themes/stable/css/system/components/tablesort.module.css
+  - core/themes/stable/css/system/components/tree-child.module.css
+  - core/themes/stable/css/views/views.module.css

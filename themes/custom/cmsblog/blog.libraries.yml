@@ -1,0 +1,12 @@
+#libraries file
+global-css:
+  css:
+    theme:
+      css/style.css: {}
+      css/layout.css: {}
+
+global-js:
+  js:
+    js/script.js: {}
+    js/jquery.menu-toggle.js : {}
+  
